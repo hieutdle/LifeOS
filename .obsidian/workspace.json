@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4ae7ba0b9a8898dd",
+            "id": "8335bc28db430d24",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,63 +22,33 @@
             }
           },
           {
-            "id": "e0d79d961ddbfd49",
+            "id": "ddb9eae58d623070",
             "type": "leaf",
             "state": {
-              "type": "tasknotes-pomodoro-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "tasknotes-pomodoro-view"
-            }
-          },
-          {
-            "id": "1a564df15b88c377",
-            "type": "leaf",
-            "state": {
-              "type": "tasknotes-pomodoro-stats-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "tasknotes-pomodoro-stats-view"
-            }
-          },
-          {
-            "id": "80e2b8f7d68e53c9",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "TaskNotes/Views/kanban-default.base",
-                "viewName": "Kanban Board"
+                "file": "cs/k8s/kodekloud.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "tasknotes-simple",
-              "title": "kanban-default"
-            }
-          },
-          {
-            "id": "fa27bc449f7598f7",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "TaskNotes/Views/agenda-default.base",
-                "viewName": "Agenda"
-              },
-              "icon": "tasknotes-simple",
-              "title": "agenda-default"
-            }
-          },
-          {
-            "id": "8335bc28db430d24",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "kodekloud"
+            }
+          },
+          {
+            "id": "4f988daeb7c82123",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-07-15 19.05.56.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-07-15 19.05.56.excalidraw"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -170,11 +140,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "cs/k8s/kodekloud.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from kodekloud"
             }
           },
           {
@@ -212,12 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Excalidraw/Drawing 2026-07-15 19.05.56.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Drawing 2026-07-15 19.05.56.excalidraw"
             }
           },
           {
@@ -275,22 +247,40 @@
       "tasknotes:Open Kanban board": false,
       "tasknotes:Open Pomodoro timer": false,
       "tasknotes:Open Pomodoro statistics": false,
-      "tasknotes:Create new task": false
+      "tasknotes:Create new task": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8335bc28db430d24",
+  "active": "0e89b69de09e3552",
   "lastOpenFiles": [
+    "cs/k8s/kodekloud.md",
+    "Excalidraw/Drawing 2026-07-15 19.05.56.excalidraw.md",
+    "Excalidraw",
+    "Attachments/kodekloud-1784041932983.webp",
+    "Attachments/kodekloud-1784041902613.webp",
+    "Attachments/kodekloud-1784041799856.webp",
+    "Attachments/kodekloud-1784041457142.webp",
+    "cs/extra/What is nginx.md",
+    "life/food/cook.md",
+    "life/food/Untitled",
+    "life/food/cook",
+    "life/food",
+    "life",
+    "Attachments/kodekloud-1784036974800.webp",
+    "Attachments/kodekloud-1784036844645.webp",
+    "Attachments/kodekloud-1784036010098.webp",
+    "Attachments/kodekloud-1784035875837.webp",
+    "cs/I2DL TUM.md",
+    "Attachments/kodekloud-1784035845113.webp",
+    "Attachments/kodekloud-1784035647956.webp",
+    "daily/07.07.2026.md",
     "german/A1/Benjamin.md",
+    "TaskNotes/Start Here.md",
     "german/A1",
     "german",
-    "daily/07.07.2026.md",
     "daily",
-    "cs/k8s/kodekloud.md",
-    "cs/extra/What is nginx.md",
     "cs/k8s",
     "cs/extra",
-    "cs/I2DL TUM.md",
-    "cs",
     "TaskNotes/Tasks/2026/07/10/Leetcode.md",
     "TaskNotes/Tasks/2026/07/10/Kodekloud.md",
     "TaskNotes/Tasks/2026/07/10/Kodekloud-2.md",
@@ -298,22 +288,7 @@
     "TaskNotes/Tasks/2026/07/10/German-2.md",
     "TaskNotes/Tasks/2026/07/10/German.md",
     "TaskNotes/Tasks/2026/07/07/Watch Intro to DL lecture.md",
-    "TaskNotes/Tasks/2026/07/10",
-    "TaskNotes/Tasks/2026/07/07",
-    "TaskNotes/Tasks/2026/07",
-    "TaskNotes/Views/tasks-default.base",
-    "TaskNotes/Start Here.md",
     "Note.md",
-    "Attachments/kodekloud-1783875215076.webp",
-    "Attachments/kodekloud-1783848911451.webp",
-    "Attachments/kodekloud-1783794540639.webp",
-    "Attachments/kodekloud-1783794427627.webp",
-    "Attachments/kodekloud-1783692173420.webp",
-    "Attachments/kodekloud-1783613969389.webp",
-    "Attachments/kodekloud-1783613734046.webp",
-    "Attachments/kodekloud-1783613280375.webp",
-    "Attachments/kodekloud-1783613234319.webp",
-    "Attachments/kodekloud-1783613061031.webp",
     "credentials/Github.md",
     "cs/explain/Linear Regression Loss Explanation.md",
     "Tasks.md",
@@ -324,7 +299,6 @@
     "daily/Kubernetes.md",
     "daily/HireLinks.md",
     "daily/german.md",
-    "TaskNotes/Archive/finish third lecture Intro to DL.md",
     "Untitled.canvas"
   ]
 }
