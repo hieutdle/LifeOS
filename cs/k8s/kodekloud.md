@@ -243,3 +243,60 @@ If in unsupported cloud -> same effect as NodePort
 | `create -f` | Creates it              | Fails with `AlreadyExists`   |
 | `apply -f`  | Creates it              | Updates it to match the YAML |
 
+
+## CKAD
+
+### Kubectl explained
+
+#### Kubectl apply
+
+![[kodekloud-1784566013861.webp]]
+
+`apply` command check against Live Object Configuration. And the latest changes are saved as json object.
+
+so why we need last applied configuration?
+
+Help us check which fields are being removed.
+
+So Not in Local File, Not in Last Applied, But In Live Object => no change
+Not in local file, in last applied, in live object => remove
+
+There k8s store this json file: Inside annotation inside live object configuration
+
+![[kodekloud-1784566270754.webp]]
+
+`create` and `replace` do not create last applied field like this.
+
+So the `apply` command always compare three objects.
+
+### Namespaces
+
+`default namespace` is created automatically when cluster is created.
+`kube-systems namespace`  : set of Pods and Services for internal purpose (network solution, DNS, ...)
+`kube-public namespace` : resources should be made available for all users created.
+
+![[kodekloud-1784566803950.webp]]
+
+```
+kubectl config set-context --current -n dev
+```
+
+This updates the default namespace for your current context.
+
+### Scheduling
+
+If there is no scheduler to schedule pods onto nodes, the pods continue to be in the pending state.
+
+![[kodekloud-1784567625443.webp]]
+
+Or Send Post Request to Pod's Binding API
+
+![[kodekloud-1784567713526.webp]]
+
+#### Labels and Selectors
+
+Labels and Selectors are methods to group things together.
+
+Selectors are use to filter labels.
+
+
